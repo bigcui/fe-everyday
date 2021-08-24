@@ -1,0 +1,1 @@
+const minIndex = (arr) => arr.reduce((num, v, i) => v > 0 && v < arr[num] ? i : num, -1)
